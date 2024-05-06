@@ -1,0 +1,48 @@
+*{
+    padding: 3PX;
+    margin: 3PX;
+}
+div{
+    border: 2px black;
+}
+#header{
+    height: 90px;
+   background-color: rgb(243, 62, 7);
+    text-align: center;
+    font-style: bold;
+   
+}
+#navi{
+    height: 90px;
+    text-align: center;
+    font-style: bold;
+    background-color: rgb(7, 146, 238);
+}
+#index{
+    height: 300px;
+    text-align: center;
+    font-style: bold;
+    background-color: rgb(234, 8, 159);
+    display:inline-block;
+    width: 10%;
+}
+#contentsection{
+    height: 300px;
+    text-align: center;
+    font-style: bold;
+    background-color:rgb(230, 185, 4) ;
+    display: inline-block;
+    width: 88%;
+}
+#footer{
+    height: 90px;
+   background-color: rgb(243, 62, 7);
+    text-align: center;
+    font-style: bold;
+
+}
+#parent{
+    width: 99%;
+    background-color: rgb(237, 7, 7);
+    padding: 4px;
+}

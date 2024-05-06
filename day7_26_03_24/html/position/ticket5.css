@@ -1,0 +1,239 @@
+.ticket5{
+    height: 700px;
+    background-color:#EF0107;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.outside{
+    height: 300px;
+    width: 55%;
+    background-color:#DA291C;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.token{
+    height: 300px;
+    width: 40%;
+    background-color: #DA291C;
+    display: flex;
+    position: relative;
+}
+.invitation{
+    height: 300px;
+    width: 60%;
+    background-color: white;
+    position: relative;
+}
+.cut1{
+    height: 50px;
+    width: 50px;
+    background-color:#EF0107;
+    position: absolute;
+    transform: rotate(45deg);
+    top:-26px ;
+    right:456px ;
+}
+.cut2{
+    height: 50px;
+    width: 50px;
+    background-color:#EF0107;
+    position: absolute;
+    transform: rotate(45deg);
+    top:274px ;
+    right:456px ;
+}
+.header_1{
+    height: 100px;
+    width: 100%;
+    background-color:#DA291C;
+}
+.body_1{
+    height: 200px;
+    width: 100%;
+    background-color:#DA291C;
+    position: absolute;
+    top: 100px;
+
+}
+.admit_text{
+    color: white;
+    font-family:monospace;
+    font-size:xx-large;
+    position: absolute;
+    top: 6px;
+    right: 227px;
+}
+.white_line{
+    height: 1px;
+    width: 18%;
+    background-color: white;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 31px;
+    right: 153px;
+}
+.invitation_text{
+position: absolute;
+top: 9PX;
+right: 87PX;
+color: white;
+font-family:monospace ;
+font-size:large;
+}
+.serialnumber{
+    position:absolute;
+    top: 9px;
+    right: 8px;
+    color: black;
+    font-family:monospace ;
+    font-size:large;
+}
+.code__number{
+    position: absolute;
+    top: 61px;
+    right: 225px;
+}
+.white_line1{
+    height: 1px;
+    width: 16%;
+    background-color: white;
+    transform: rotate(deg);
+    position: absolute;
+    top: 19px;
+    right: 107px;
+}
+.invite_1{
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+    position: absolute;
+    top: 20px;
+    right: 114px;
+}
+.invite_2{
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+    position: absolute;
+    top: 41px;
+    right: 132px;
+}
+.invite_3{
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+    position: absolute;
+    top: 64px;
+    right: 130px;
+}
+.invite_4{
+    position: absolute;
+    font-size:600%;
+    font-weight: bolder;
+    top: -28px;
+    right: 150px;
+    
+}
+.invite_5{
+    position: absolute;
+    font-size:600%;
+    font-weight: bolder;
+    top: 50px;
+    right: 122px;
+    
+}
+.invite_6{
+    position: absolute;
+    font-size:350%;
+    font-weight: bolder;
+    top: 26px;
+    right: 24px;
+    color: #DA291C;
+    font-family: monospace;
+    
+}
+.red_line1{
+    height: 2px;
+    width: 15%;
+    background-color:#DA291C;
+    border-radius: 10px;
+    border-color: #DA291C;
+    position: absolute;
+    top: 229px;
+    right: 341px;
+}
+.red_line2{
+    height: 2px;
+    width: 15%;
+    background-color:#DA291C;
+    border-radius: 10px;
+    border-color: #DA291C;
+    position: absolute;
+    top: 229px;
+    right: 73px;
+}
+.red_line3{
+    height: 2px;
+    width: 15%;
+    background-color:#DA291C;
+    border-radius: 10px;
+    border-color: #DA291C;
+    position: absolute;
+    top: 229px;
+    right: 208px;
+}
+.date{
+    color: black;
+    font-family: monospace;
+    font-size: x-large;
+    position: absolute;
+    top: 212px;
+    right: 369px;
+}
+.date1{
+    color: black;
+    font-family: monospace;
+    font-size: x-large;
+    position: absolute;
+    top: 219px;
+    right: 305px;
+    /* opacity: 0.6; */
+}
+.issuesd{
+    color: black;
+    font-family: monospace;
+    font-size: x-large;
+    position: absolute;
+    top: 214px;
+    right: 183px;
+}
+.place{
+    color: black;
+    font-family: monospace;
+    font-size: x-large;
+    position: absolute;
+    top: 219px;
+    right: 183px;
+    /* opacity: 0.6; */
+}
+.invite__no{
+    color: black;
+    font-family: monospace;
+    font-size: x-large;
+    position: absolute;
+    top: 214px;
+    right:48px;
+}
+.serialno{
+    color: black;
+    font-family: monospace;
+    font-size: x-large;
+    position: absolute;
+    top: 219px;
+    right: 48px;
+    /* opacity: 0.6; */
+}
+

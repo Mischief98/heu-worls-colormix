@@ -1,0 +1,309 @@
+/* EX:1 */
+.flex{
+    height:700px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    
+}
+.c1{
+    height:100px;
+    width: 100%;
+    background-color: #FF69B4;
+    text-align: center;
+}
+.c2{
+    height:100px;
+    width: 100%;
+    background-color:#FF00FF;
+    text-align: center
+
+}
+.flex2{
+   height:400px;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    /* flex-direction: column; */
+}
+.c4{
+    height: 400px;
+    width: 50%;
+    background-color: #060506;
+    color: aliceblue;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+
+}
+.c5{
+    height:400px ;
+    width:50%;
+    background-color: aqua;
+}
+.c8{
+    height:200px ;
+    width: 100%;
+    background-color: red;
+}
+.c7{
+    height:100px;
+    width: 100%;
+    background-color: #FF69B4;
+    text-align: center;
+
+}
+
+
+/* EX:2 */
+.flex3{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(255, 250, 250);
+}
+.c9{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+}
+.c10{
+    height: 100px;
+    width: 100%;
+    background-color: #0c0a0c;
+}
+
+.flex4{
+    height: 400px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+
+
+}
+.c12{
+    height: 400px;
+    width:20%;
+    background-color: #FF00FF;
+
+}
+.c14{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+
+}
+
+
+/* EX:3 */
+.flex5{
+    height:700px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    
+}
+.c15{
+    height:100px;
+    width: 100%;
+    background-color: #e11414;
+    text-align: center;
+}
+.c16{
+    height:100px;
+    width: 100%;
+    background-color:#FF00FF;
+    text-align: center
+}
+.flex6{
+    height:400px;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+
+}
+.c17{
+    height: 400px;
+    width: 100%;
+    background-color: #060506;
+    color: aliceblue;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+
+}
+.c17{
+    height: 400px;
+    width: 50%;
+    background-color: aqua;
+}
+.c19{
+    height: 400px;
+    width: 50%;
+    background-color: #e11414;
+    display: flex;
+    flex-direction: column;
+}
+.c20{
+    height:200px ;
+    width:100% ;
+    background-color: blue;
+
+}
+.c21{
+    height:100px;
+    width: 100%;
+    background-color: #FF69B4;
+    text-align: center;
+
+}
+/* EX:9 */
+/* *{
+   margin: 3px;
+    
+} */
+.flex7{
+    height:700px;
+    width: 100%;
+    /* display: flex; */
+    background-color: rgb(247, 244, 244);
+    /* flex-direction: column; */
+
+}
+.c22{
+    height:100px;
+    width: 100%;
+    background-color:yellow;
+
+}
+.flex8{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(250, 249, 248);
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+
+}
+.c23{
+    height:300px;
+    width: 40%;
+    background-color:purple;
+    
+}
+.c24{
+    height:300px;
+    width: 30%;
+    background-color: rgb(226, 11, 226);
+    display: flex;
+    flex-direction: row;
+}
+.c25{
+    height: 200px;
+    width:100% ;
+    background-color:yellow;
+}
+.c26{
+    height: 100px;
+    width: 100%;
+    background-color: yellow;
+
+}
+.c27{
+    height: 100px;
+    width: 100%;
+    background-color:purple;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px
+}
+.c28{
+    height: 100px;
+    width: 20%;
+    background-color: rgb(229, 4, 4);
+    
+    }    
+    .c29{
+        height:100px;
+        width: 100%;
+        background-color:yellow;
+    }
+
+ 
+/* EX:10     */
+#flex9{
+    height:700px;
+    width: 100%;
+    background-color: #060506
+    
+    
+
+}
+.logo{
+    height:100px ;
+    width:100% ;
+    background-color: #fd5c63;
+    text-align: center;
+    margin:0px;
+    
+    
+}
+.home{
+    height: 100px;
+    width:100% ;
+    background-color: #D2122E;
+    color: rgb(5, 6, 6);
+    text-align:center;
+}
+.feature{
+    height: 200px;
+    width: 100%;
+    color:black;
+    background-color: #fd5c63;
+    text-align: center;
+}
+.column{
+    height: 200px;
+    width: 100%;
+    background-color: #E32636;
+    display: flex;
+   justify-content:space-evenly;
+   align-items: center;
+}
+.column1{
+    height: 150px;
+    width: 30%;
+    background-color: #AA0000;
+    color: #060506;
+    text-align: center;
+}
+.copy{
+    height:100px ;
+    width:100% ;
+    background-color: #fd5c63;
+    text-align:center;
+
+}
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+

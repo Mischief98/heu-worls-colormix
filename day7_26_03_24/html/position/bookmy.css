@@ -1,0 +1,669 @@
+.header_searchbar{
+    height: 70px;
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    /* position: sticky; */
+    /* top: 0px; */
+}
+.logo{
+    height: 70px;
+    width: 15%;
+    background-color: white;
+}
+.searchbar{
+    height: 70px;
+    width: 40%;
+    background-color: white;
+    position: relative;
+}
+.city_location{
+    height: 70px;
+    width: 15%;
+    background-color: white;
+}
+.signin_button{
+    height: 70px;
+    width: 15%;
+    background-color: white;
+}
+.user-label{
+    position: absolute;
+    top: 27px;
+    right: 482px;
+    font-size:x-small;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.input{
+    position: absolute;
+    top: 12px;
+    right: 150px;
+    width: 70%;
+    height: 50%;
+    /* border-radius: 30px; */
+}
+.lens_mag{
+    position:absolute;
+    top: 30px;
+    right: 538px;
+}
+.location_text{
+    position: absolute;
+    top: 8px;
+    right: 437px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+}
+.down_arrow{
+    position: absolute;
+    top: 37px;
+    right: 401px;
+}
+.search_button{
+    height: 40px;
+    width: 70px;
+    background-color:#E52B50;
+    border-radius: 10px;
+    border-color:#E52B50;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 164px;
+    box-shadow: #E52B50;
+    animation: bounce .5s infinite alternate;
+}
+@keyframes bounce {
+    to { transform: scale(1.2); 
+}
+    
+  }
+.settings_logo{
+    position: absolute;
+    top: 41px;
+    right: 114px;
+}
+.custom_search{
+    height: 50px;
+    background-color: rgb(251, 249, 249);
+    display: flex;
+}
+.section_1{
+    height: 50px;
+    width: 50%;
+    background-color:gainsboro;
+    display: flex;
+    justify-content: flex-end;
+}
+.section_2{
+    height: 50px;
+    width: 50%;
+    background-color:gainsboro;
+    display: flex;
+    justify-content: flex-start;
+}
+.items_1{
+    height: 50px;
+    width: 80%;
+    background-color:gainsboro;
+}
+.text1{
+    position: absolute;
+    top: 76px;
+    right: 1286px;
+}
+.text2{
+    position: absolute;
+    top: 76px;
+    right: 1208px;
+}
+.text3{
+    position: absolute;
+    top: 76px;
+    right: 1129px;
+}
+.text4{
+    position: absolute;
+    top: 76px;
+    right: 1062px;
+}
+.text5{
+    position: absolute;
+    top: 76px;
+    right: 987px;
+}
+.text6{
+    position: absolute;
+    top: 76px;
+    right:893px;
+}
+.items_2{
+    height: 50px;
+    width: 70%;
+    background-color: gainsboro;
+}
+.text7{
+    position: absolute;
+    top: 76px;
+    right: 415px;
+}
+.text8{
+    position: absolute;
+    top: 76px;
+    right: 321px;
+}
+.text9{
+    position: absolute;
+    top: 76px;
+    right: 248px;
+}
+.text10{
+    position: absolute;
+    top: 76px;
+    right:52px;
+}
+.text10:hover{
+    color: red;
+   
+}
+.slide_show{
+    height: 350px;
+    background-color:rgb(250, 248, 248);
+    display: flex;
+    align-items: center;
+    
+}
+.slide1{
+    height: 300px;
+    width: 20%;
+    background-color: red;
+}
+.slide2{
+    height: 300px;
+    width: 60%;
+    background-color: yellow;
+}
+.slide3{
+    height: 300px;
+    width: 20%;
+    background-color:blue;
+}
+.rightarrow{
+    height: 50px;
+    width: 70px;
+    background-color:black;
+    position: absolute;
+    opacity: 0.6;
+    top: 294px;
+    right: 1409px;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+}
+.left_arrow{
+    position:absolute;
+    top: 24px;
+    right: 46px;
+}
+.right_arrow{
+    position: absolute;
+    top: 24px;
+    right: -1383px;
+}
+.movie_frame{
+    height: 700px;
+    background-color:rgb(253, 251, 251);
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.posters1{
+    height: 450px;
+    width: 20%;
+    background-color: white;
+    /* position: absolute; */
+    top: 562px;
+    right: 53px;
+    border-radius: 30px;
+    
+}
+
+.posters2{
+    height: 450px;
+    width: 20%;
+    background-color: white;
+    border-radius: 30px;
+    
+}
+.posters3{
+    height: 450px;
+    width: 20%;
+    background-color: white;
+    border-radius: 30px;
+    
+}.posters4{
+    height: 450px;
+    width: 20%;
+    background-color: white;
+    border-radius: 30px;
+}
+.image1{
+    height: 400px;
+    width: 100%;
+    background-color: #E52B50;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+.title1{
+    height: 50px;
+    width: 100%;
+    background-color:red;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.image2{
+    height: 400px;
+    width: 100%;
+    background-color: #E52B50;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+.title2{
+    height: 50px;
+    width: 100%;
+    background-color:red;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.image3{
+    height: 400px;
+    width: 100%;
+    background-color: #E52B50;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+.title3{
+    height: 50px;
+    width: 100%;
+    background-color:red;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.image4{
+    height: 400px;
+    width: 100%;
+    background-color: #E52B50;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+.title4{
+    height: 50px;
+    width: 100%;
+    background-color:red;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.movie_name1{
+    font-size:150%;
+    position: absolute;
+    top: 1037px;
+    right:1336px;
+    
+}
+.sub_name1{
+    font-size:130%;
+    position: absolute;
+    top: 1055px;
+    right: 1272px;
+    opacity: 0.6;
+}
+.movie_name2{
+    font-size:150%;
+    position: absolute;
+    top: 1035px;
+    right:871px;
+    
+}
+.sub_name2{
+    font-size:130%;
+    position: absolute;
+    top: 1062px;
+    right: 863px;
+    opacity: 0.6;
+}
+.movie_name3{
+    font-size:150%;
+    position: absolute;
+    top: 1035px;
+    right:543px;
+    
+}
+.sub_name3{
+    font-size:130%;
+    position: absolute;
+    top: 1062px;
+    right: 428px;
+    opacity: 0.6;
+}
+.movie_name4{
+    font-size:150%;
+    position: absolute;
+    top: 1035px;
+    right:233px;
+    
+}
+.sub_name4{
+    font-size:130%;
+    position: absolute;
+    top: 1062px;
+    right: 245px;
+    opacity: 0.6;
+}
+.add_poster{
+    height: 350px;
+    background-color:rgb(250, 248, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add_1{
+    height: 150px;
+    width: 80%;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.live_events{
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.park_events{
+    height: 200px;
+    width: 16%;
+    background-color: white;
+    border-radius: 20px;
+}
+.workshop_events{
+    height: 200px;
+    width: 16%;
+    background-color:white;
+    border-radius: 20px;
+}
+.kids_special{
+    height: 200px;
+    width: 16%;
+    background-color:white;
+    border-radius: 20px;
+}
+.comedy_shows{
+    height: 200px;
+    width: 16%;
+    background-color: white;
+    border-radius: 20px;
+}
+.ipl_events{
+    height: 200px;
+    width: 16%;
+    background-color:white;
+    border-radius: 10px;
+    border-radius: 20px;
+    
+}
+.live__events{
+ position:absolute;
+ top: 1567px;
+ right: 1209px;
+ font-size:130%;
+ font-weight: bolder;
+ opacity: 0.6;
+}
+.premier{
+    height: 700px;
+    background-color:rgb(37, 33, 33);
+    /* position: relative; */
+}
+.topic_premier{
+    height: 150px;
+    background-color:rgb(37, 33, 33);
+}
+.play_button{
+    position: absolute;
+    top: 1991px;
+    right: 1362px;
+}
+.premiere{
+    position: absolute;
+    top:1951px;
+    right:1215px;
+    color: white;
+}
+.premiere_1{
+    position: absolute;
+    top:1974px;
+    right:1020px;
+    font-size: larger;
+    color: white;
+}
+.premier_body{
+    height: 550px;
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.premier1{
+    height: 400px;
+    width: 20%;
+    background-color: black;
+    border-color: black;
+}
+
+.premier2{
+    height: 400px;
+    width: 20%;
+    background-color: black;
+}
+
+.premier3{
+    height: 400px;
+    width: 20%;
+    background-color: black;
+}
+
+.premier4{
+    height: 400px;
+    width: 20%;
+    background-color: black;
+    
+}
+
+.movie_1{
+    position: absolute;
+    top: 459px;
+    right: 1206px;
+    color: rgb(236, 240, 244);
+}
+.language_1{
+    position: absolute;
+    top: 485px;
+    right: 1296px;
+    color: rgb(236, 240, 244);
+}
+.movie_2{
+    position: absolute;
+    top: 459px;
+    right: 862px;
+    color: rgb(236, 240, 244);
+}
+.language_2{
+    position: absolute;
+    top: 485px;
+    right: 959px;
+    color: rgb(236, 240, 244);
+}
+.movie_3{
+    position: absolute;
+    top: 459px;
+    right: 517px;
+    color: rgb(236, 240, 244);
+}
+.language_3{
+    position: absolute;
+    top: 485px;
+    right: 628px;
+    color: rgb(236, 240, 244);
+}
+.movie_4{
+    position: absolute;
+    top: 459px;
+    right: 200px;
+    color: rgb(236, 240, 244);
+}
+.language_4{
+    position: absolute;
+    top: 485px;
+    right:284px;
+    color: rgb(236, 240, 244);
+
+}
+.slider_button{
+    height: 50px;
+    width: 50px;
+    background-color:black;
+    border-radius: 50%;
+    position: absolute;
+    top: -4px;
+    right: 1379px;
+    opacity: 0.6;
+    position: relative;
+}
+.sliderbutton{
+    position: absolute;
+    top: 23px;
+    right: 12px;
+}
+.music_studio{
+    position: absolute;
+    top: 2676px;
+    right: 1223px;
+    opacity: 0.5;
+    color: black;
+
+}
+.musicc_studio{
+    height: 700px;
+    background-color:white;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    border-color: black;
+   
+}
+.premieer_body{
+    height: 550px;
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+}
+.footer{
+    height: 700px;
+    background-color: black;
+}
+
+.water_kingdom{
+    position: absolute;
+    top: 460px;
+    right: 884px;
+    color: white;
+}
+.location1{
+    position: absolute;
+    top: 482px;
+    right: 941px;
+    color: white;
+}
+.location2{
+    position: absolute;
+    top: 482px;
+    right: 255px;
+    color: white;
+}
+.footer1{
+    height: 100px;
+    background-color: rgb(63, 61, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.tent{
+    height: 50px;
+    width: 10%;
+    background-color:rgb(63, 61, 61);
+   }
+  .tent_img{
+    position: absolute;
+    top: 48px;
+    right: 1283px;
+  } 
+.listyourshow{
+    height: 50px;
+    width: 20%;
+    background-color:rgb(63, 61, 61);
+    position: relative;
+}
+.size{
+    position: absolute;
+    top: -3px;
+    right: 155px;
+    color: white;
+}
+.description{
+    height: 50px;
+    width: 30%;
+    background-color:rgb(63, 61, 61);
+}
+.contact_button{
+    height: 50px;
+    width: 30%;
+    background-color:rgb(63, 61, 61);
+    position: relative;
+}
+.size1{
+    position: absolute;
+    top: 17px;
+    right: 632px;
+    color: white;
+}
+.contact{
+    height: 50px;
+    width: 40%;
+    background-color:#E52B50;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-color: #E52B50;
+    border-radius: 10px;
+    font-size: large;
+    color: white;
+}
+
+

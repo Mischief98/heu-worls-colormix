@@ -1,0 +1,508 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    height: 40px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerin{
+    background-color: white;
+    height: 40px;
+    width: 50%;
+    display: flex;
+    align-items:end;
+    justify-content: center;
+}
+.locationimg{
+    height: 40px;
+    width: 40px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+.content{
+    height: 40px;
+    width: 370px;
+    background-color:white;
+    align-content:center ;
+    justify-content: center;
+    
+}
+.button1{
+height: 30px;
+width: 100px;
+background-color:red;
+border-radius:30px;
+display: flex;
+justify-content: center;
+align-items:center;
+color: white;
+padding: 2px;
+margin: 2px;
+
+}
+.center{
+    text-align: center;
+}
+.button1:hover{
+    background-color: black;
+    color: red;
+}
+  
+  .header1 {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color:#FF0800;
+   
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+  }
+  
+  .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color:black;
+    font-family:cursive;
+  }
+  
+  .logo a span {
+    color:white;
+    /* font-family: cursive; */
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: cursive; */
+  }
+  
+  .menu a {
+    display: block;
+    padding: 7px 15px;
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.2s all ease-in-out;
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+  
+  .menu:hover a {
+    opacity: 0.4;
+  }
+  
+  .menu a:hover {
+    opacity: 1;
+    color:black;
+  }
+  .header2{
+    height: 60px;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .order{
+    height: 30px;
+    background-color:black;
+    width: 30%;
+    align-content: center;
+}
+.button2{
+    height: 50px;
+    background-color:black;
+    width: 10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.text{
+    font-family: cursive;
+    text-align: center;
+    color: white;
+    /* align-content: center; */
+}
+.button3{
+    height: 40px;
+    width: 110px;
+    background-color:red;
+    border-radius:30px;
+    color: white;
+    padding: 2px;
+    margin: 2px;
+    border-color:red;
+    
+}
+.button3:hover{
+    background-color: #fff;
+    border-color:#fff;
+    color: black;
+}
+.poster{
+    height: 300px;
+    background-color: bisque;
+    /* width:33%; */
+    display: flex;
+}
+.poster1{
+    height: 300px;
+    background-color:red;
+    width: 33%;
+}
+.poster2{
+    height: 300px;
+    background-color:black;
+    width: 33%;
+}
+.poster3{
+    height: 300px;
+    background-color:yellow;
+    width: 34%;
+    /* opacity: 0.1; */
+}
+.browse{
+    height: 200px;
+    background-color: black;
+    display:flex;
+   ;
+    
+
+}
+.browse1{
+    height: 200px;
+    width:30%;
+    background-color:white;
+    text-align: center;
+    align-content: center;
+    font-size: xx-large ;
+    font-weight:bold;
+    /* visibility:hidden; */
+   
+}
+.browse2{
+    height: 200px;
+    width:70%;
+    background-color:white;
+}
+.browse3{
+    height: 100px;
+    width: 100%;
+    background-color:white;
+}
+.browse4{
+    height: 1px;
+    width: 90%;
+    background-color:grey;
+    margin:1px
+    
+}
+.categorie1{
+    height: 300px;
+    background-color:white;
+    display: flex;
+}
+.child1{
+    height: 300px;
+    width: 20%;
+    background-color:white;
+}
+.child2{
+    height: 300px;
+    width: 70%;
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+}
+.food{
+    height:300px;
+    width: 22%;
+    background-color: black;
+}
+.name{
+    height: 70px;
+    width: 100%;
+    background-color:white;
+}
+.food1{
+    height: 230px;
+    width: 100%;
+    background-color: white;
+}
+.text1{
+    text-align:center;
+    color:black;
+    opacity: 0.5;
+    
+}
+.offers{
+    height: 200px;
+    background-color: black;
+    /* opacity: 0.9; */
+   
+    
+}
+.lines{
+    background-color:black;
+    height: 70px;
+    
+}
+.red{
+    height: 70px;
+    width:25px ;
+    background-color: #FF0800;
+}
+.design{
+    height: 70px;
+    width: 20%;
+    background-color:black;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.offertitle{
+    height: 100px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.offerhead{
+    height: 50px;
+    background-color: black;
+    width: 80%;
+    display: flex;
+}
+.offright{
+    height:50px;
+    background-color:black;
+    width: 50%;
+    text-align: left;
+    color: #fff;
+}
+.offleft{
+    height:50px;
+    background-color:black;
+    width: 50%;
+    text-align: right;
+    color: #fff;
+}
+.offercard{
+    height: 500px;
+    background-color:black;
+    /* opacity: 0.9; */
+    display: flex;
+    align-items: last baseline;
+    justify-content: end;
+}
+.offercardparent{
+    height: 500px;
+    width: 80%;
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.offercard1{
+    height:500px;
+    width: 33%;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+}
+.offercard2{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+}
+.offertitle1{
+    height: 100px;
+    width: 100%;
+    background-color:black ;
+}
+.offerbutton{
+height: 100px;
+width: 100%;
+background-color: yellow;
+display:flex;
+}
+.offercard3{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    opacity: 0.4;
+}
+.textred{
+    color: #FF0800;
+    text-transform: uppercase;
+    text-align: center;
+}
+.textblack{
+    color: #fff;
+    text-align: center;
+}
+.buttontext{
+    height:100px;
+    width: 30%;
+    background-color:red;
+    text-decoration: underline;
+    color: #fff;
+}
+.redbutton{
+    height: 100px;
+    width: 70%;
+    background-color:red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whitebutton{
+    height: 60px;
+    background-color:black;
+    width:60%;
+    border-radius:30px;
+    color:white;
+    padding: 2px;
+    margin: 2px;
+    font-size:large;
+    border-color: #FF0800;
+}
+.textsmall{
+    color: #fff;
+}
+.whitebutton:hover{
+    background-color:white;
+    border-color:red;
+    color: black;
+
+
+}
+.scrollline{
+    height: 200px;
+    background-color:black;
+    
+}
+.scroll1{
+    height: 1px;
+    /* width: 100%; */
+    background-color:white;
+    margin: 0.5px;
+
+}
+.scroll2{
+    height: 100px;
+    /* width: 100%; */
+    background-color:black;
+    margin: 0px;
+
+}
+.empty{
+    height: 100px;
+    background-color: black;
+}
+.footer{
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.insidefooter{
+    height: 300px;
+    width: 90%;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerlogo{
+    height: 200px;
+    width: 10%;
+    background-color:black ;
+}
+.footeritems{
+    height: 200px;
+    width: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.footerfindstore{
+    height: 200px;
+    width: 15%;
+    background-color:black;
+}
+.socialbuttons{
+    height:200px ;
+    width:20%;
+    background-color:black;
+}
+.insidediv{
+    height: 200px;
+    width: 23%;
+    background-color:black;
+}
+.footertext{
+    text-align: center;
+    color: #fff;
+    font-size: small;
+}
+.underline{
+    text-decoration: underline;
+    text-align: center;
+    color: #fff;
+}
+.appstore{
+    height: 50px;
+    width: 45%;
+    background-color: #fff;
+    border-color: black;
+}
+.playstore{
+    height: 50px;
+    width: 45%;
+    background-color: #fff;
+    border-color: black;
+}
+.copyright{
+    height: 50px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+}
+.context{
+    height: 25px;
+    width: 80%;
+    background-color:black;
+}
+.sociallogo{
+    height: 25px;
+    width: 20%;
+    background-color:black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.textfooter{
+    text-align: center;
+    font-size: small;
+    color: #fff;
+}

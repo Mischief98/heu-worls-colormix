@@ -1,0 +1,87 @@
+.body{
+    height: 700px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+}
+.outside{
+    height: 400px;
+    width: 60%;
+    background-color: yellow;
+    position: relative;
+    overflow: hidden;
+}
+.boxcut1{
+    height: 100px;
+    width: 10%;
+    background-color:red;
+    top:350px;
+    position: absolute;
+    left: 400px;
+    
+}
+.boxcut2{
+    height: 100px;
+    width: 10%;
+    background-color:red;
+    position: absolute;
+    left: 400px;
+    top:-50px ;
+    }
+.circle1{
+    height: 90px;
+    width: 10%;
+    background-color:red;
+    border-radius: 50%;
+    position: absolute;
+    right:-31px;
+    top: 339px;
+   
+}    
+.circle2{
+    height: 90px;
+    width: 10%;
+    background-color:red;
+    border-radius: 50%;
+    position: absolute;
+    right: -25px;
+    top: -25px;
+   
+}    
+.circle3{
+    height: 90px;
+    width: 10%;
+    background-color:red;
+    border-radius: 50%;
+    position: absolute;
+    left:-25px;
+    top: -27px;
+   
+}    
+.circle4{
+    height: 90px;
+    width: 10%;
+    background-color:red;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -31px;
+    left: -33px;
+    /* right: 10px;
+    top: 10px; */
+   
+} 
+.circle5{
+    height: 90px;
+    width: 10%;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 155px;
+    right: 400px;
+    
+    
+}   
+

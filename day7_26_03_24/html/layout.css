@@ -1,0 +1,146 @@
+.parent{
+    background-color: rgb(234, 89, 6);
+    height: 200px;
+    
+
+}
+.child1{
+    height:180px;
+    width:40%;
+    background-color: rgb(234, 244, 244);
+    display:inline-block;
+    margin: 10px;
+    border-radius: 50px;
+}
+.child2{
+    height: 180px;
+    width:40%;
+    background-color:white; 
+    display:inline-block;
+    margin:10px;
+    border-radius: 50px;
+}
+.child3
+{
+    height: 170px;
+    width: 15%;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+    border-radius:50px
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.parent2{
+    background-color:rgb(234, 89, 6);
+    height: 200px;
+}
+.child4{
+    height: 100px;
+    width: 40%;
+    background-color:white;
+    display:inline-block;
+    margin: 10px;
+    border-radius: 50px;
+
+}
+.child5{
+    height: 100px;
+    width: 40%;
+    background-color:white;
+    display:inline-block;
+    margin: 10px;
+    border-radius: 50px;
+
+    
+}
+.child3{
+    height: 170px;
+    width: 15%;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+    border-radius:50px;
+}
+.child6{
+    height: 170px;
+    width: 15%;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+    border-radius:50px ;
+}
+.parent3{
+    background-color: rgb(234, 89, 6);
+    height: 200px;
+
+}
+.child7{
+    height: 170px;
+    width: 15%;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+    border-radius:50px;
+
+}
+
+
+.child8{
+    height: 170px;
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+    border-radius:50px;
+
+}
+.child9{
+    height: 170px;
+    width: 50%;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+    border-radius:50px;
+
+}
+.parent4{
+    background-color: rgb(234, 89, 6);
+    height: 200px;
+
+}
+
+
+.child10{
+    height: 170px;
+    width: 15%;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+    border-radius:50px;
+}
+.child11{
+    height: 170px;
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+    border-radius:50px;
+}
+
+ .child12
+ {
+        height: 170px;
+        width: 15%;
+        background-color: white;
+        display: inline-block;
+        margin: 10px;
+        border-radius:50px;
+    }
+
+
+
+

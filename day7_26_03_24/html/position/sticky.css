@@ -1,0 +1,37 @@
+/* h1{
+    position: sticky;
+    top: 0;
+    background-color: red;
+    
+} */
+/* .para{
+    position:sticky;
+    height: 150px;
+    width: 50%;
+    background-color: yellow;
+    top: 0px;
+    left: 100px;
+}
+
+.button1
+{
+ height: 50px;
+border-radius: 30px;
+background-color:red ;
+color:black;
+padding: 12px 30px;
+font-weight:600;
+position: fixed;
+top: 50px;
+left:1300px;
+}
+::selection{
+    background-color: red;
+    
+} */
+.outside{
+    width: 60%;
+    height: 400px;
+    background-color: green;
+    position: relative;
+}

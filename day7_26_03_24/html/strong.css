@@ -1,0 +1,40 @@
+span{
+    color: yellow;
+}
+hr{
+    color:red;
+    height: 10px;
+    background-color: red;
+}
+.button1{
+    height:50px;
+    width: 80px;
+    background-color:black;
+    color: red;
+    padding:12px ;
+    border-radius: 50%;
+    margin: 22px;
+    font-weight:bolder;
+}
+.button1:hover{
+    background-color: white;
+    color: red;
+}
+.button2{
+    height: 50px;
+    border-radius: 30px;
+    background-color:white ;
+    color:orangered;
+    padding: 12px 30px;
+    font-weight:600;
+    align-items:flex-end;
+    
+}
+.button2:hover {
+    background-color:#1d1160 ;
+    color:orangered;
+  }
+  input:focus {
+    background-color:red;
+  }
+  

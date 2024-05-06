@@ -1,0 +1,495 @@
+.ticket4{
+    height: 710px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.outside{
+    height:300px;
+    width: 65%;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    
+}
+.part1{
+    height: 300px;
+    width: 75%;
+    background-color:white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius:30px;
+    background-image:url(https://wallpapermural.com/cdn/shop/files/PinkWorldMap_Artwork.jpg?v=1704990912);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+   
+}
+.part2{
+    height: 300px;
+    width: 25%;
+    background-color:white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: relative;
+    
+}
+.header1{
+    height: 70px;
+    width: 100%;
+    background-color:#7C3030;
+    border-top-left-radius: 30px;
+    /* opacity: 0.6; */
+    position: absolute;
+}
+.text1{
+    position: absolute;
+    top: -14px;
+    right:380px ;
+    font-family:sans-serif;
+    font-weight: bolder;
+}
+.text2{
+    position: absolute;
+    top: 24px;
+    right:497px ;
+    font-family:sans-serif;
+    /* font-weight: bolder; */
+}
+.header2{
+    height: 70px;
+    width: 100%;
+    background-color:#A51C30;
+    border-top-right-radius: 30px;
+    position:absolute;
+}
+.text3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 7px;
+    right: 136px;
+    /* font-size:x-large; */
+}
+.text4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    /* font-size: x-large; */
+}
+.text5{
+    top:36px;
+    right: 89px;
+    position: absolute;
+}
+.header2_body{
+    position: absolute;
+    height: 170px;
+    width: 100%;
+    background-color:white;
+    top:70px ;
+}
+.text6{
+    position: absolute;
+    top: -10px;
+    right:161px ;
+    /* opacity: 0.5; */
+}
+.text7{
+    position: absolute;
+    top:8px ;
+    right:147px ;
+}
+.text8{
+    position: absolute;
+    top:38px ;
+    right:167px ;
+    /* opacity: 0.5; */
+}
+.text9{
+    position: absolute;
+    top:56px ;
+    right: 187px;
+   
+}
+.text10{
+    position: absolute;
+    top:82px ;
+    right:186px ;
+    /* opacity: 0.5; */
+}
+.text11{
+    position: absolute;
+    top:92px ;
+    right:119px ;
+    font-size: large;
+}
+.text12{
+    position: absolute;
+    top:125px ;
+    right:184px ;
+    /* opacity: 0.5; */
+}
+.text13{
+    position: absolute;
+    top:145px ;
+    right:202px ;
+}
+.text14{
+    position: absolute;
+    top:41px ;
+    right:17px ;
+    /* opacity: 0.5; */
+}
+.text15{
+    position: absolute;
+    top:58px ;
+    right:27px ;
+}
+.barecode_customer{
+    height: 50px;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+    top:250px ;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+
+}
+.barecode{
+    height: 50px;
+    background-color:white;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bare-code{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    top:32px;
+}
+.bare__code{
+    position: absolute;
+    top:88px ;
+    right:634px;
+}
+.bare__code1{
+    position: absolute;
+    top:141px ;
+    right:634px;
+}
+.bare__code2{
+    position: absolute;
+    top:195px ;
+    right:634px;
+}
+.bare__code3{
+    position: absolute;
+    top:248px ;
+    right:634px;
+}
+.bare__code4{
+    position: absolute;
+    top:301px ;
+    right:634px;
+}
+.text16{
+    position: absolute;
+    /* font-size:large; */
+    top: 57px;
+    right: 474px;
+    color:#004526;
+    font-weight: bolder;
+}
+.text17{
+    position: absolute;
+    top: 75px;
+    right: 419px;
+    color:black;
+    font-weight: bolder;
+    /* opacity: 0.7; */
+}
+.text18{
+    position: absolute;
+    top: 57px;
+    right:318px;
+    color:#004526;
+    font-weight: bolder;
+}
+.text19{
+    position: absolute;
+    top: 75px;
+    right:319px;
+    color:black;
+    font-weight: bolder;
+    /* opacity: 0.7; */
+}
+.text20{
+    position: absolute;
+    top: 57px;
+    right:189px;
+    color:#004526;
+    font-weight: bolder;
+}
+.text21{
+    position: absolute;
+    top: 75px;
+    right:145px;
+    color:black;
+    font-weight: bolder;
+    /* opacity: 0.7; */
+}
+.text22{
+    position: absolute;
+    top: 57px;
+    right:32px;
+    color:#004526;
+    font-weight: bolder;
+}
+.text23{
+    position: absolute;
+    top: 75px;
+    right:36px;
+    color:black;
+    font-weight: bolder;
+    /* opacity: 0.7;  */
+}
+.london{
+    position: absolute;
+    top: 144px;
+    right:481px;
+}
+.plane_img{
+    position: absolute;
+    top: 184px;
+    right: 283px;
+}
+.tokyo{
+    position: absolute;
+    top: 146px;
+    right: 64px;
+}
+.text24{
+    position: absolute;
+    top: 217px;
+    right:519px;
+    color:red;
+    font-weight: bolder;
+}
+.text25{
+    position: absolute;
+    top: 240px;
+    right:524px;
+    color:black;
+    font-weight: bolder;
+    /* opacity: 0.7;  */
+}
+.text26{
+    position: absolute;
+    top: 224px;
+    right:50px;
+    color:red;
+    font-weight: bolder;
+}
+.text27{
+    position: absolute;
+    top: 246px;
+    right:85px;
+    color:black;
+    font-weight: bolder;
+    /* opacity: 0.7;  */
+}
+.punch1{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:white;
+    border-radius: 50%;
+    top: 207px;
+    right: 493px;
+    text-shadow:1px 1px 1px 1px 
+}
+.punch2{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:white;
+    border-radius: 50%;
+    top: 224px;
+    right: 493px;
+    text-shadow:1px 1px 1px 1px 
+}
+.punch3{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:white;
+    border-radius: 50%;
+    top: 241px;
+    right: 493px;
+    text-shadow:1px 1px 1px 1px 
+}
+.punch4{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:white;
+    border-radius: 50%;
+    top: 258px;
+    right: 493px;
+    text-shadow:1px 1px 1px 1px 
+}
+.punch5{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:white;
+    border-radius: 50%;
+    top:275px;
+    right: 493px;
+    text-shadow:1px 1px 1px 1px 
+}
+.punch6{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:white;
+    border-radius: 50%;
+    top: 292px;
+    right: 493px;
+    text-shadow:1px 1px 1px 1px 
+}
+.punch7{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:white;
+    border-radius: 50%;
+    top: 309px;
+    right: 493px;
+    text-shadow:1px 1px 1px 1px 
+}
+.punch8{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:white;
+    border-radius: 50%;
+    top: 326px;
+    right: 493px;
+    text-shadow:1px 1px 1px 1px 
+}
+.punch9{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:white;
+    border-radius: 50%;
+    top: 343px;
+    right: 493px;
+    text-shadow:1px 1px 1px 1px 
+}
+.punch10{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:white;
+    border-radius: 50%;
+    top: 360px;
+    right: 493px;
+    text-shadow:1px 1px 1px 1px 
+}
+.punch11{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:white;
+    border-radius: 50%;
+    top: 377px;
+    right: 493px;
+    text-shadow:1px 1px 1px 1px 
+}
+.punch12{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:white;
+    border-radius: 50%;
+    top:394px;
+    right: 493px;
+    text-shadow:1px 1px 1px 1px 
+}
+.punch13{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:white;
+    border-radius: 50%;
+    top:411px;
+    right: 493px;
+    text-shadow:1px 1px 1px 1px 
+}
+.punch14{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:white;
+    border-radius: 50%;
+    top: 428px;
+    right: 493px;
+    text-shadow:1px 1px 1px 1px 
+}
+.punch15{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:white;
+    border-radius: 50%;
+    top: 445px;
+    right: 493px;
+    text-shadow:1px 1px 1px 1px 
+}
+.punch16{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:white;
+    border-radius: 50%;
+    top: 462px;
+    right: 493px;
+    text-shadow:1px 1px 1px 1px 
+}
+.punch17{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:white;
+    border-radius: 50%;
+    top: 479px;
+    right: 493px;
+    text-shadow:1px 1px 1px 1px 
+}
+.punch18{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:white;
+    border-radius: 50%;
+    top: 496px;
+    right: 493px;
+    text-shadow:1px 1px 1px 1px 
+}
+
+
+
+
+

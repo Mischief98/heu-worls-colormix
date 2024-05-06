@@ -1,0 +1,218 @@
+.ticket6{
+    height: 700px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.yellow_card1{
+    height: 250px;
+    width: 35%;
+    background-color:#FEBE10 ;
+    position: relative;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transform: rotate(-10deg);
+}
+.yellow_card2{
+    height: 250px;
+    width:100%;
+    background-color:#FFFF00 ;
+    position: absolute;
+    top: -8px;
+    right: -9px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.cut_circle1{
+    height: 100px;
+    width: 100px;
+    background-color:black;
+    border-radius: 50%;
+    position: absolute;
+    top: 252px;
+    right: 426px;
+}
+.cut_circle2{
+    height: 100px;
+    width: 100px;
+    background-color:black;
+    border-radius: 50%;
+    position: absolute;
+    top: 355px;
+    right: 940px;
+}
+.yellow_card3{
+    height:190px;
+    width: 60%;
+    background-color:#F0E68C ;
+    transform: rotate(359deg);
+    position: absolute;
+    top: 32px;
+    right:131px;
+}
+.name_ticket{
+    font-size: 550%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: -16px;
+    right: 17px;
+    transform: rotate(359deg);
+}
+.ticket_hole1{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:black;
+    border-radius: 50%;
+    top: 191px;
+    right: 587px;
+}
+.ticket_hole2{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:black;
+    border-radius: 50%;
+    top: 208px;
+    right: 584px;
+}
+.ticket_hole3{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:black;
+    border-radius: 50%;
+    top: 225px;
+    right: 580px;
+}
+.ticket_hole4{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:black;
+    border-radius: 50%;
+    top: 242px;
+    right: 577px;
+}
+.ticket_hole5{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:black;
+    border-radius: 50%;
+    top: 259px;
+    right:573px;
+}
+.ticket_hole6{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:black;
+    border-radius: 50%;
+    top:276px;
+    right:570px;
+}
+.ticket_hole7{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:black;
+    border-radius: 50%;
+    top: 294px;
+    right: 567px;
+}
+.ticket_hole8{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:black;
+    border-radius: 50%;
+    top: 310px;
+    right: 564px;
+}
+.ticket_hole9{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:black;
+    border-radius: 50%;
+    top: 326px;
+    right: 560px;
+}
+.ticket_hole10{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:black;
+    border-radius: 50%;
+    top: 342px;
+    right: 556px;
+}
+.ticket_hole11{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:black;
+    border-radius: 50%;
+    top: 358px;
+    right: 553px;
+}
+.ticket_hole12{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:black;
+    border-radius: 50%;
+    top: 374px;
+    right: 550px;
+}
+.ticket_hole13{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:black;
+    border-radius: 50%;
+    top: 390px;
+    right: 547px;
+}
+.ticket_hole14{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:black;
+    border-radius: 50%;
+    top: 406px;
+    right:543px;
+}
+.ticket_hole15{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:black;
+    border-radius: 50%;
+    top: 423px;
+    right:541px;
+}
+.ticket_hole16{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+    top: 439px;
+    right: 538px;
+}
+.ticket_hole17{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:black;
+    border-radius: 50%;
+    top: 310px;
+    right: 555px;
+}

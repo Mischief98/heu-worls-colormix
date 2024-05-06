@@ -1,0 +1,38 @@
+*{
+    padding: 3px;
+    margin: 3px;
+}
+div{
+    border: 2px black;
+}
+#header{
+    height: 120px;
+   background-color:#97233F;
+    text-align: center;
+    font-style: bold;
+    margin: 10px;
+   
+}
+#nav{
+    height: 80px;
+   background-color:#C41E3A;
+    text-align: center;
+    font-style: bold;
+    margin: 10px;
+   
+}
+#main{
+    height: 250px;
+    background-color:#FF7F50;
+    text-align: center;
+    font-style: bold;
+    margin: 10px;
+}
+#footer{
+    height: 120px;
+    background-color:#97233F;
+    text-align: center;
+    font-style: bold;
+    margin: 10px;
+}
+    

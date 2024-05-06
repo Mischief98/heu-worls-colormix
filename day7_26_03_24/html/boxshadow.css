@@ -1,0 +1,13 @@
+#myDIV {
+    width: 200px;
+    height: 200px;
+    background-color:#008200;
+    color: white;
+    animation: mymove 5s infinite;
+    margin-left: 500px;
+    text-align: center;
+  }
+  
+  @keyframes mymove {
+    50% {box-shadow: 10px 20px 30px 10px #662d91;}
+  }

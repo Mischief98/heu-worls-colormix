@@ -1,0 +1,83 @@
+
+.section{
+    width: 98%;
+    height: 500px;
+    background-color: rgb(245, 240, 240);
+    display: inline-block;
+}
+.header{
+    width: 99%;
+    height: 100px;
+    background-color:#DADD98;
+    vertical-align: top;
+    display: inline-block;
+    margin: 5PX;
+}
+.body{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(251, 248, 248);
+    display: inline-block;
+    margin: 5px;
+}
+.introcopy{
+    width: 69%;
+    height: 148px;
+    background-color:#FF6347;
+    display: inline-block;
+}
+.heroimage{
+    width: 100%;
+    height: 90px;
+    background-color:#FBCEB1;
+    display: inline-block;
+    vertical-align: top;
+}
+.calltoaction{
+    width: 100%;
+    height: 50px;
+    background-color:#FF7F50;
+    display: inline-block;
+    vertical-align: top;
+}
+.body2{
+    width: 30%;
+    height: 146px;
+    background-color: azure;
+    display: inline-block;
+    vertical-align: top;
+}
+.features{
+    width: 100%;
+    height: 80px;
+    background-color:#FFD700;
+    display: inline-block;
+}
+.body1{
+    width: 100%;
+    height: 100px;
+    background-color: azure;
+}
+.morecopy{
+    width: 68%;
+    height: 100px;
+    background-color:#FF6347;
+    display: inline-block;
+}
+.calltoaction1{
+    width: 31%;
+    height: 100px;
+    background-color:#FF7F50;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color:#DADD98;
+    display: inline-block;
+}
+*{
+    padding: 1px;
+    margin: 1px;
+}

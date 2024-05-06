@@ -1,0 +1,23 @@
+.outside{
+    height: 400px;
+    width: 60%;
+    background-color: green;
+    position: relative;
+    overflow: hidden;
+}
+.inside{
+    height: 100px;
+    width: 10%;
+    background-color: white;
+    position: absolute;
+    left: 500px;
+    border-radius: 50%;
+    top:339px;
+}
+.box{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}

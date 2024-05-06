@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.party{
+    height: 40px;
+    background-color:rgb(47, 204, 4);
+    opacity:70%;
+    
+}
+img{
+    margin-left: 40px;
+}
+/* body{
+    background-image: url(billie3.jpg);
+} */
+.header {
+    overflow: hidden;
+    background-color:rgb(4, 5, 4);
+    padding: 20px 10px;
+    opacity:100%;
+  }
+  
+  
+  .header a {
+    float: left;
+    color: rgb(60, 209, 31);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    opacity:80%;
+  }
+  
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    opacity: 100%;
+  }
+  
+  
+  .header a:hover {
+    background-color:green;
+    color:white;
+    opacity: 100%;
+  }
+  
+  
+  .header a.active {
+    background-color:#FFFF00;
+    color: rgb(251, 4, 4);
+    opacity: 100%;
+  }
+  
+  
+  .header-right {
+    float: right;
+    opacity: 100%;
+  }
+  .header a.about{
+    background-color:#FFFF00;
+    color: white;
+  }
+  
+    .header-right {
+    float: right;
+    
+
+  }
+  .parent{
+    height: 400px;
+    /* background-color: white; */
+    width: 100%;
+   display: flex;
+   align-items:center;
+   opacity:100%; 
+   flex-direction: column;
+   background: url(billie3.jpg);
+    
+  }
+  .c1{
+    height:400px;
+    width:50% ;
+    /* background-color:rgb(249, 247, 247); */
+    text-align: center;
+    font-family:"Audiowide";
+    font-size:300%;
+    color: black;
+    opacity: 0.5; 
+   }
+.date{
+    height: 40px;
+    background-color: rgb(249, 244, 244);
+    display: flex;
+    justify-content: start;
+    text-align: center;
+}
+.a{
+    height:40px ;
+    background-color:rgb(90, 190, 63);
+    width: 33.3%;
+    display: flex;
+    /* text-align: center; */
+    /* justify-content: start; */
+    justify-content:start;
+    align-items: center;
+    
+   
+}
+.time{
+    height: 40px;
+    background-color: white;
+}
+p{
+    color: rgb(4, 4, 4);
+    font-size:20px;
+    font-family:'Sofia';
+    
+}
+.parent2{
+  height: 400px;
+  background-color: black;
+  display: flex;
+  justify-content:space-around;
+  flex-direction:row;
+  align-items: center;
+  background-image: url(dce21d88393569.5dd508120794a.jpg);
+  /* filter: blur(0.9px); */
+  /* position: relative; */
+  /* z-index: -1; */
+}
+.d{
+  height:300px;
+  width:40%;
+  /* background-color:white; */
+  text-align: center;
+  opacity:100%;
+  font-weight:bolder;
+  font-size:x-large;
+  color:rgb(0, 0, 0);
+  
+}
+.e{
+  height:400px;
+  width:40%;
+  /* background-color: rgb(23, 187, 34); */
+  text-align: center;
+}
+ .f{ 
+  height:350px;
+  /* width: 100%; */
+  /* background-color:yellow; */
+  background-image:url(D:\karka\day7_26_03_24\html\77625c5d5cd3c9804024f5872f2afe79.jpg);
+  opacity:60% ;
+  /* margin-left:40px ; */
+} 
+.oo{
+  opacity: 80%;
+  font-family: 'Alex Brush';
+}
+}

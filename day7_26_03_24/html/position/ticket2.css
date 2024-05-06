@@ -1,0 +1,253 @@
+.ticket2{
+    height: 700px;
+    width:100%;
+    background-color:pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content{
+    height: 550px;
+    width: 18%;
+    background-color: yellow;
+    position: relative;
+   
+}
+.circle{
+    height: 100px;
+    width: 40%;
+    background-color:yellow;
+    border-radius: 50%;
+    position: absolute;
+    left: 78px;
+    bottom:497px;
+    overflow: hidden;
+}
+.circle1{
+    height: 33px;
+    width: 100%;
+    background-color:yellow;
+    position: absolute;
+    top: 1px;
+    text-align: center;
+    /* overflow: hidden; */
+}
+.circle2{
+    height: 33px;
+    width: 100%;
+    background-color:yellow;
+    position: absolute;
+    bottom: 1px;
+}
+h5{
+    position: absolute;
+    top: -5px;
+    right: 29px;
+    color: purple;
+}
+.circle3{
+    height: 40px;
+    width: 100%;
+    background-color:yellow;
+    position: absolute;
+    top: 34px;
+    /* text-align: center; */
+    /* font-size: large; */
+}
+.text{
+    position: absolute;
+    top: -9px;
+    left: 33px;
+    font-size: larger;
+    font-weight:bold ;
+    color: purple;
+}
+.image{
+    position: absolute;
+    right: 25px;
+}
+.content1{
+    height: 50px;
+    width: 100%;
+    background-color:rgb(11, 236, 11);
+    position: absolute;
+    bottom: 1px;
+    border-color: black;
+}
+.image1{
+    position: absolute;
+    right: 66px;
+}
+.park{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 51px;
+    display: flex;
+}
+.year{
+    height: 150px;
+    width: 50%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+.place{
+    height: 150px;
+    width: 50%;
+    background-color: blue;
+    display: flex;   
+    flex-direction: column;
+}
+.date{
+    height: 50px;
+    width: 100%;
+    background-color:purple;
+    text-align: center;
+}
+.date1{
+    height: 50px;
+    width: 100%;
+    background-color:yellow;
+    text-align: center;
+    font-size: larger;
+    font-weight:100;
+    font-family: fantasy;
+}
+.date2{
+    height: 50px;
+    width: 100%;
+    background-color:purple;
+    text-align: center;
+    
+}
+.victoria{
+    height: 50px;
+    width: 100%;
+    background-color: purple;
+    text-align:center;
+    font-size: large;
+
+}
+hr{
+    width:60%;
+    background-color: purple;
+    height: 1px;
+}
+.park1{
+    height: 50px;
+    width: 100%;
+    background-color: yellow;
+    text-align: center;
+    font-family:fantasy ;
+    
+}
+.auckland{
+    height: 50px;
+    width: 100%;
+    background-color: purple;
+    text-align: center;
+    font-size: large;
+    
+}
+.empty1{
+    height: 3px;
+    width: 80%;
+    background-color: purple;
+    position: absolute;
+    bottom: 218px;
+    right: 27px;
+}
+.para{
+    height: 120px;
+    width: 100%;
+    background-color:yellow; 
+    position: absolute;
+    bottom: 221px;
+    text-align:center;
+    font-weight:bold;
+}
+.empty2{
+    height: 3px;
+    width: 80%;
+    background-color: purple;
+    position: absolute;
+    bottom: 349px;
+    right: 26px;
+}
+.food{
+    height: 30px;
+    background-color: purple;
+    width: 90%;
+    position: absolute;
+    bottom: 359px;
+    right: 13px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    font-family: cursive;
+}
+.test{
+    position: absolute;
+    top: -12px;
+    right: 67px;
+    font-family: fantasy;
+}
+.plates{
+   height: 150px;
+   background-color:rgb(11, 236, 11);
+   bottom: 500px;
+   display: flex;
+   flex-direction: column;
+   justify-content:flex-end;
+}
+.hundred{
+    height: 50px;
+    width: 100%;
+    background-color:yellow;
+    /* position: absolute; */
+    text-align: center;
+    font-size: larger;
+}
+.plate{
+    height: 50px;
+    width: 100%;
+    background-color:yellow;
+    /* position: absolute; */
+    /* bottom:1 px; */
+    text-align: center;
+}
+.hundred1{
+    position:absolute;
+    top: 41px;
+    right: 106px;
+}
+   .twenty{
+    position: absolute;
+    top: 85px;
+    right: 166px;
+   }
+   .twentyone{
+    position: absolute;
+    top: -15px;
+    right: 161px;
+   }
+   .nov{
+    position: absolute;
+    top: 40px;
+    right: 158px;
+   }
+   .public{
+    position: absolute;
+    top: 43px;
+    right: 33px;
+   }
+   .victy{
+    position: absolute;
+    top: -7px;
+    right: 10px;
+   }
+
+
