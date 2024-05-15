@@ -3,6 +3,8 @@
     background-color:white;
     display: flex;
 }
+    
+
 
 .designtab_1{
     height: 120px;
@@ -433,9 +435,9 @@ nav ul
 {
 	display: flex;
     list-style-type: none;
-    font-size: larger;
+    /* font-size: larger; */
     font-weight: 800;
-    font-family:cursive;
+    font-family:Arial, Helvetica, sans-serif;
 	
 }
 nav ul li
@@ -446,14 +448,36 @@ nav ul li
     
 }
 nav ul :hover{
-    color:maroon;
+    color:black;
     
 }
 
 .extraLink{
   position: relative;
-  color: #E52B50;
+  color:black;
   text-decoration: none;
+  /* border-top:2px ; */
+}
+.extraLink::after{
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color:#E52B50;
+    transform: scale(0);
+    transition: 0.5s;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px; 
+    border-top-left-radius:20px;
+    border-top-right-radius:20px; 
+    /* padding: 2px; */
+    border-top: 100px;
+   
+}
+.extraLink:hover::after{
+    transform: scale(1.1);
 }
 .products{
     height: 800px;
@@ -478,10 +502,11 @@ nav ul :hover{
     text-align:left;
     
 }
-.image1:hover{
-    background-color: #E52B50;
+ .image_1:hover{ 
+    
     opacity: 0.8;
-}
+    background-color: #E52B50;
+} 
 .product_2{
     height: 600px;
     width: 40%;
@@ -509,6 +534,7 @@ nav ul :hover{
 }
 .image_2:hover{
     background-color: red;
+    opacity: 0.8;
 
 }
 .product_3{
@@ -1061,10 +1087,12 @@ nav ul :hover{
     position: absolute;
     top: 335px;
     right: 585px;
+    transition:color 0.4s;
+    text-decoration: none;
 }
 .footer_twitter:hover{
-    background-color: black;
-    transition: color 0.5s ease;
+    color:#E52B50;
+   
     
 
 }
@@ -1095,6 +1123,7 @@ nav ul :hover{
 }
 .footer_pin:hover{
     background-color: #E52B50;
+    background-size: cover;
     
 
 }
@@ -1122,4 +1151,30 @@ nav ul :hover{
     background-color:black;
     position:relative;
     top: 881px;
+}
+::selection{
+    color: black;
+    background-color: #FBCEB1;
+}
+.heart1{
+    position: absolute;
+    top: 208px;
+    right: 165px;
+    opacity: 0;
+}
+/* .heart1:hover{
+    opacity: 0.9;
+   
+} */
+.image_icon1:hover .heart1{
+    opacity: 0.9;
+}
+.heart2{
+    position: absolute;
+    top: 285px;
+    right: 281px;
+    opacity: 0;
+}
+.image_icon2:hover .heart2{
+    opacity: 0.9;
 }

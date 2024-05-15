@@ -1,0 +1,89 @@
+
+.header{
+    height: 100px;
+    background-color:pink;
+    color: black;
+    text-align: center;
+}
+.nav{
+    height: 400px;
+    background-color: black;
+    display: flex;
+    
+}
+.navbar{
+    height: 200px;
+    width: 20%;
+    background-color:palevioletred;
+    text-align: center;
+    
+}
+.section{
+    height: 200px;
+    width: 60%;
+    background-color:bisque;
+    text-align: center;
+}
+.aside{
+    height: 200px;
+    width: 20%;
+    background-color:violet;
+    text-align: center;
+}
+.footer{
+    height: 100px;
+    background-color: pink;
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (max-width:480px){
+    .nav {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       
+    }
+    .box .nav div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media screen and (min-width:481px){
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav .navbar{
+        width: 50%;
+       
+       
+    }
+    .nav .section{
+        width: 50%;
+        
+        
+    }
+    .nav .aside{
+        width: 100%;
+    }
+  
+}
+@media screen and (min-width:761px){
+.nav{
+    display:flex;
+}
+.nav .navbar{
+    width: 20%;
+    height: 400px;
+}
+.nav .section{
+    width:60%;
+    height: 400px;
+}
+.nav .aside{
+    width: 20%;
+    height: 400px;
+}
+}

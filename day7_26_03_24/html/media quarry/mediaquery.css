@@ -1,0 +1,256 @@
+/* 0px to 319px- */
+/* 320px to 480px-mobile */
+/* 481px to 768px-tab,ipad */
+/* 760px to 1024px-small-screenl laptop */
+/* 1025px to 1440px-large-screen laptop */
+/* 1441px to infinitypx-tv,extralargescreen */
+/* @media is syntex for media query */
+
+
+
+
+
+/* h1{
+    color: green;
+    text-align: center;
+} */
+/* @media print{
+h1{
+    color: blue;
+}
+} 
+@media print and (orientation:landscape){
+    h1{
+        color: green;
+    }
+}
+@media screen and (max-width:480px) {
+    h1{
+        color: blueviolet;
+    }
+}
+@media screen and (min-width:320px) {
+    h1{
+        color:yellow;
+    }
+} */
+/* @media screen and (max-width:800px){
+    h1{
+        color: red;
+    }
+}
+@media screen and (max-width:600px){
+    h1{
+        color:blue;
+    }
+}
+@media screen and (max-width:400px){
+    h1{
+        color:yellow;
+    }
+} */
+
+
+
+/* .box{
+    height: 200px;
+    width: 200px;
+    background-color: palegoldenrod;
+    
+}
+@media screen and (max-width:320px){
+    .box{
+        background-color: red;
+    }
+}
+@media screen and (min-width:321px){
+    .box{
+        background-color: blue;
+    }
+}
+@media screen and (min-width:481px){
+    .box{
+        background-color: green;
+
+    }
+}
+@media screen and (min-width:769px){
+    .box{
+        background-color: pink;
+    }
+}
+@media screen and (min-width:1025px){
+    .box{
+        background-color:red ;
+    }
+} */
+
+
+.parent{
+
+}
+.box1{
+    height: 20px;
+    background-color: rebeccapurple;
+    width: 19%;
+    display:inline-block;
+    margin-left: 10px;
+    
+}
+.box2{
+    height: 20px;
+    background-color: red;
+    width: 19%;
+    display:inline-block;
+    margin-left: 10px;
+    
+}
+.box3{
+    height: 20px;
+    background-color:blue;
+    width: 19%;
+    display:inline-block;
+    margin-left: 10px;
+}
+.box4{
+    height: 20px;
+    background-color:black;
+    width: 19%;
+    display:inline-block;
+    margin-left: 10px;
+}
+.box5{
+    height: 20px;
+    background-color:green;
+    width: 19%;
+    display:inline-block;
+    margin-left: 10px;
+}
+@media screen and (min-width:481px){
+    .parent div{
+        width: 30%;
+        margin-left: 15px;
+    }
+    .parent .box4{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:480px){
+    .parent div{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0px;
+    }
+}
+@media screen and (min-width:768px){
+    .parent div{
+        width: 18%;
+    }
+}
+
+
+
+.parent1{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.box_1{
+    height: 20px;
+    width: 20%;
+    background-color: red;
+}
+.box_2{
+    height: 20px;
+    width: 19%;
+    background-color:blue;
+}
+.box_3{
+    height: 20px;
+    width: 19%;
+    background-color:green;
+}
+.box_4{
+    height: 20px;
+    width: 19%;
+    background-color:yellow ;
+}
+.box_5{
+    height: 20px;
+    width: 19%;
+    background-color:black;
+}
+
+
+@media screen and (max-width:480px){
+    .parent1{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        /* width: 100%; */
+    }
+    .parent1 div{
+        width: 100%;
+    }
+}
+@media screen and (min-width:481px){
+    .parent1{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        
+    }
+    .parent1 div{
+        width: 100%;
+       
+    }
+    .parent1 .box_1 {
+        width: 30%;
+        
+    }
+    .parent1 .box_2{
+        width: 30%;
+        
+    }
+    .parent1 .box_3{
+        width: 30%;
+        
+    }
+    .parent1 .box_4{
+        display: flex;
+        width: 30%;
+        
+    }
+    .parent1 .box_5{
+        display: flex;
+        width: 30%;
+     }
+
+}
+@media screen and (min-width:761px){
+    .parent1{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        
+    }
+    .parent1 .box_1{
+        width: 19%;
+    }
+    .parent1 .box_2{
+        width: 19%;
+    }
+    .parent1 .box_3{
+        width: 19%;
+    }
+    .parent1 .box_4{
+        width: 19%;
+    }
+    .parent1 .box_5{
+        width: 19%;
+    }
+    
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bulb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body class="background">
+    <div class="inside_background">
+        <i class="fa-regular fa-lightbulb fa-2xl bulb" id="bulb" style="color: #050505; font-size:2000%;"></i>
+        <button class="click" onclick="opener()">click</button>
+    </div>
+    <script>
+        function opener(){
+            var light = document.getElementById("bulb")
+            var currentcolor = light.style.color;
+
+
+            if(currentcolor === "yellow"){
+                light.style.color="black"
+            }else{
+                light.style.color="yellow"
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,265 @@
+/* * {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  } */
+  
+.outside{
+    height: 600px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url(images/peakpx\ \(8\).jpg) ;
+    background-size:cover ;
+    position: relative;
+    /* background: transparent; */
+    
+}
+.login_maindiv{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    /* opacity: 0.5; */
+    border-radius: 30px;
+    position: absolute;
+    background-color: transparent;
+    animation: pulse 1.5s infinite;
+}
+@keyframes pulse {
+    0% {
+     box-shadow: 0 0 0 0 white ;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgba(238, 79, 30, 0);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+.login_topheader{
+    height: 100px;
+    width: 100%;
+    background-color:white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-bottom: 20px;
+    position: absolute;
+    /* background: transparent; */
+    opacity: 0.5;
+}
+.login_logo{
+    color:black;
+    text-align: center;
+    font-family:"Pacifico", cursive;
+    font-weight: 900;
+    font-style: normal;
+    text-transform:lowercase;
+    /* z-index: -10; */
+    
+}
+.login_middle{
+    height: 250px;
+    background-color:white;
+    position:relative;
+    top: 100px;
+    /* background: transparent; */
+    opacity: 0.5;
+}
+.user_name{
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+    position: relative;
+    top: 14px;
+    right: -47px;
+    border-color: white;
+    font-family:'Times New Roman', Times, serif;
+    border-top-color:blue;
+    border-bottom-color:blue;
+    border-left-color:blue;
+    border-right-color:blue;
+}
+.user_logo{
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    text-shadow: 0 0 5px white,0 0 10px white, 0 0 20px white;
+}
+.user_password{
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+    position: relative;
+    top: 49px;
+    right: -47px;
+    border-top-color:blue;
+    border-bottom-color:blue;
+    border-left-color:blue;
+    border-right-color:blue;
+    font-family:'Times New Roman', Times, serif
+}
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    top: 220px;
+    right: 21px;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  .check {
+    cursor: pointer;
+    position: relative;
+    margin: auto;
+    width: 18px;
+    height: 18px;
+    -webkit-tap-highlight-color: transparent;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .check:before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(34,50,84,0.03);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+  
+  .check svg {
+    position: relative;
+    z-index: 1;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #c8ccd4;
+    stroke-width: 1.5;
+    transform: translate3d(0, 0, 0);
+    transition: all 0.2s ease;
+  }
+  
+  .check svg path {
+    stroke-dasharray: 60;
+    stroke-dashoffset: 0;
+  }
+  
+  .check svg polyline {
+    stroke-dasharray: 22;
+    stroke-dashoffset: 66;
+  }
+  
+  .check:hover:before {
+    opacity: 1;
+  }
+  
+  .check:hover svg {
+    stroke: #4285f4;
+  }
+  
+  #cbx:checked + .check svg {
+    stroke: #4285f4;
+  }
+  
+  #cbx:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+  }
+  
+  #cbx:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+  }
+  .forget_password{
+    position: absolute;
+    top: 221px;
+    right: 13px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .login_footer{
+    height: 150px;
+    background-color:white;
+    position: relative;
+    top: 100px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    opacity: 0.5;
+  }
+  .login_button{
+    height: 50px;
+    width: 300px;
+    border-radius: 50px;
+    position:relative;
+    top: 9px;
+    right: -53px;
+    border-top-color:blue;
+    border-bottom-color:blue;
+    border-left-color:blue;
+    border-right-color:blue;
+    font-size: larger;
+    font-weight: 800;
+    font-family:"open sans" ;
+    z-index: 10;
+  }
+  .text1{
+    position:absolute;
+    top: 74px;
+    right: 100px;
+  }
+  .text2{
+    font-weight: 900;
+    text-shadow: 0 0 5px white,0 0 10px white, 0 0 20px white;
+    cursor: pointer;
+  }
+  .login_button:hover{
+    background-color:blue;
+  }
+  .user_password:hover{
+    background-color:lightblue;
+    color: black;
+  }
+  .user_name:hover{
+    background-color:lightblue;
+    color: black;
+  }
+  .text2:hover{
+    color:blue;
+  }
+.forget_password:hover{
+    color: blue;
+}
+

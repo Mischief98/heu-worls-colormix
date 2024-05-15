@@ -1,0 +1,21 @@
+.container-lg{
+    height: 100px;
+}
+.container-sm{
+    height: 100px;
+    background-color: blueviolet;
+}
+.w-auto{
+    display: flex;
+    justify-content: space-around;
+}
+.ome{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+.omes{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}

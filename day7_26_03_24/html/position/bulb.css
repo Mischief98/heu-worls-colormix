@@ -1,0 +1,67 @@
+.background{
+    height: 700px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inside_background{
+    height: 600px;
+    width: 70%;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+   .bulb{
+    position: absolute;
+    top: 205px;
+    
+}
+.click{
+    height: 50px;
+    width: 100px;
+    background-color:blue;
+    position: absolute;
+    top: 419px;
+    color: white;
+    font-size: larger;
+    border-color:blue;
+    box-shadow:5px 5px lightblue;
+    border-radius: 20px;
+    /* animation: bounce 0.5s infinite alternate; */
+    text-transform: uppercase;
+    /* background: transparent; */
+    animation: pulse 1.5s infinite;
+    
+}
+/* @keyframes bounce { 
+    to { transform: scale(1.1); 
+        
+}
+}  */
+@keyframes pulse {
+    0% {
+     box-shadow: 0 0 0 0 palevioletred;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgba(238, 79, 30, 0);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+.click:hover{
+    background-color: #0066ff;
+    border-color: #0066ff;
+    text-shadow: 0 0 5px white,0 0 10px white, 0 0 20px white;
+    
+    
+}
+
+  

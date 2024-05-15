@@ -1,37 +1,56 @@
-/* h1{
+h1{
     position: sticky;
-    top: 0;
-    background-color: red;
+    top: 0px;
+    right: 50%;
+    /* background-color: yellow; */
+    position: fixed;
+    z-index: -1;
     
-} */
-/* .para{
+}
+ /* .para{
     position:sticky;
     height: 150px;
     width: 50%;
     background-color: yellow;
     top: 0px;
     left: 100px;
-}
+} */
 
 .button1
 {
  height: 50px;
+ width: 100px;
 border-radius: 30px;
-background-color:red ;
+background-color:lightblue ;
+border-color: white;
 color:black;
 padding: 12px 30px;
 font-weight:600;
 position: fixed;
-top: 50px;
+top: 100px;
 left:1300px;
+text-align: center;
+border-bottom-color: white;
+
 }
-::selection{
-    background-color: red;
-    
-} */
-.outside{
+side{
     width: 60%;
     height: 400px;
     background-color: green;
     position: relative;
+}
+.header{
+    height: 50px;
+    background-color: yellow;
+    position: sticky;
+    top: 0px;
+    z-index: -1;
+    text-align: center;
+}
+span{
+    font-family: fantasy;
+    position: sticky;
+     background:blue;
+     position: sticky;
+     top: 0px;
 }
